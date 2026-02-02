@@ -29,4 +29,14 @@ Special character rule error
 Students must analyze and fix these through GitHub Issues.
 # Technologies Used
 Python 3
+
 GitHub (Issues, Branches, Pull Requests)
+# How to Run the Program
+
+Download or clone the repository
+
+Open terminal in the project folder
+
+Run:
+
+python password_checker.py
