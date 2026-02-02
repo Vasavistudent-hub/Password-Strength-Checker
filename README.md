@@ -37,6 +37,4 @@ Download or clone the repository
 
 Open terminal in the project folder
 
-Run:
-
-python password_checker.py
+Run:- python password_checker.py
