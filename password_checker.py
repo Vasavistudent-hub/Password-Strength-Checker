@@ -4,7 +4,7 @@ def check_password_strength(password):
     strength = "Weak"
 
     # BUG 1: Length condition wrong (should be >= 8)
-    if len(password) > 8:
+    if len(password) >= 8:
         strength = "Medium"
 
     # BUG 2: Uppercase check incorrect
