@@ -9,7 +9,7 @@ def check_password_strength(password):
 
     # BUG 2: Uppercase check incorrect
     if re.search("[A-Z]", password) == None:
-        strength = "Strong"
+    strength = "Weak"
 
     # BUG 3: Number check reversed
     if re.search("[0-9]", password) == None:
