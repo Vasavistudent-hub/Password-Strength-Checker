@@ -16,8 +16,8 @@ def check_password_strength(password):
         strength = "Strong"
 
     # BUG 4: Special character not checked properly
-    if re.search("[!@#$%^&*]", password):
-        strength = "Weak"
+  if re.search("[!@#$%^&*]", password) == None:
+    strength = "Weak"
 
     return strength
 
