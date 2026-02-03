@@ -12,8 +12,8 @@ def check_password_strength(password):
         strength = "Strong"
 
     # BUG 3: Number check reversed
-    if re.search("[0-9]", password) == None:
-        strength = "Strong"
+  if re.search("[0-9]", password) == None:
+    strength = "Weak"
 
     # BUG 4: Special character not checked properly
     if re.search("[!@#$%^&*]", password):
